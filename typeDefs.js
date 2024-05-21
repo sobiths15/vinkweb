@@ -65,3 +65,5 @@ const typeDefs = gql`
   }
 `
 module.exports = typeDefs;
+
+//This is the chatbox typeDefs
