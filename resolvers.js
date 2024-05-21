@@ -203,7 +203,7 @@ const resolvers = {
       } catch (error) {
         throw new Error(`Failed to fetch replies for user with id ${parent.id}: ${error.message}`);
       }
-    }
+    },
   },
   Chat: {
     messages: async (parent) => {
